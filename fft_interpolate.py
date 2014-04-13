@@ -75,6 +75,8 @@ if __name__ == "__main__":
     name = sys.argv[1]
     factor = float(sys.argv[2])
 
+    makeGray(name)
+
     source = makeSmall(name, 1.0/factor)
     print source
 
